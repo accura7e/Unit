@@ -1,0 +1,35 @@
+
+.input {
+    display: block;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 22px 28px;
+    
+    @media (max-width: 899px){
+        padding-right: 46px;
+        padding-left: 46px;
+    }
+   
+    @media (max-width: 599px){
+        padding-right: 37px;
+        padding-left: 37px;
+    }
+   
+    &::placeholder{
+        color: #fff;
+    }
+
+    &:focus{
+        outline: none;
+        -webkit-box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.2);
+    }
+
+
+}
+
+

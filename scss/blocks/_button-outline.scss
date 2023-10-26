@@ -1,0 +1,23 @@
+
+.button-outline {
+
+    padding: 22px 40px;
+    background-color: transparent;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    
+    &:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    &:active{
+        background-color: #b5b5b5
+    }
+}

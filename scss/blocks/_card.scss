@@ -1,0 +1,45 @@
+.card {
+    text-align: center;
+    width: 270px;
+
+
+}
+.card__img {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    @media (max-width: 1199px){
+        margin-bottom: 21px
+    }
+
+
+}
+.card__title {
+    
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1; /* 16px */
+    @media (max-width: 1199px){
+        min-height: 48px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+     }
+ 
+     @media (max-width: 899px){
+        min-height: unset;
+     }
+
+}
+.card__text {
+    color: $paragraphText;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14; /* 214.286% */
+
+    @media (max-width: 1199px){
+        line-height: 1.57;
+    }
+
+
+
+}

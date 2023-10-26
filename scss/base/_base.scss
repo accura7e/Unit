@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: $mainText;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}

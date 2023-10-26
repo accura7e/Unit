@@ -1,0 +1,17 @@
+.subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1; /* 48px */
+
+    @media (max-width: 1199px){
+       font-size: 38px;
+    }
+
+    @media (max-width: 899px){
+        font-size: 30px;
+    }
+
+    @media (max-width: 599px){
+        font-size: 26px;
+    }
+}
